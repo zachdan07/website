@@ -6,3 +6,8 @@ body {
     height: 100vh;                            /* Makes sure the background covers the whole page */
     margin: 0;                                /* Removes default margin */
 }
+
+p {
+    color: white;
+
+}
