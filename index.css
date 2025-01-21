@@ -1,0 +1,8 @@
+body {
+    background-image: url('background.jpg');  /* Path to your image */
+    background-size: cover;                   /* Ensures the image covers the whole page */
+    background-position: center;              /* Centers the image */
+    background-repeat: no-repeat;             /* Prevents the image from repeating */
+    height: 100vh;                            /* Makes sure the background covers the whole page */
+    margin: 0;                                /* Removes default margin */
+}
