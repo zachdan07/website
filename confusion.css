@@ -2,3 +2,9 @@ p {
     color: blue;
     font-size: 12px;
 }
+
+body {
+    background: linear-gradient(to right, lightblue 50%, lightgreen 50%);
+    height: 100vh;  /* Make sure the background covers the whole page */
+    margin: 0;      /* Remove default margin */
+}
