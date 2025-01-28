@@ -1,5 +1,4 @@
 p {
-    color: white;
     font-size: 12px;
 }
 
@@ -8,3 +7,12 @@ body {
     height: 100vh;  /* Make sure the background covers the whole page */
     margin: 0;      /* Remove default margin */
 }
+
+<style>
+  .white-text {
+    color: white;
+  }
+  .black-text {
+    color: black;
+  }
+</style>
