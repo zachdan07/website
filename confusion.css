@@ -6,10 +6,6 @@ body {
     background: linear-gradient(to right, black 50%, white 50%);
     height: 100vh;  /* Make sure the background covers the whole page */
     margin: 0;      /* Remove default margin */
-    display: flex;
-    flex-direction: column;  /* Arrange the children vertically */
-    justify-content: center; /* Vertically center the text */
-    align-items: flex-end;   /* Align everything to the right */
 }
 
   .white-text {
@@ -21,5 +17,6 @@ body {
 
 .container {
     margin-right: 20px;
+    text-align: right;
 }
 
