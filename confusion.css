@@ -8,11 +8,10 @@ body {
     margin: 0;      /* Remove default margin */
 }
 
-<style>
   .white-text {
     color: white;
   }
   .black-text {
     color: black;
   }
-</style>
+
