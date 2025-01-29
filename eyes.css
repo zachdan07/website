@@ -1,17 +1,20 @@
 body {
     background-image: url('eyes.PNG');  /* Path to your image */
-    background-size: cover;                   /* Ensures the image covers the whole page */
-    background-position: center;              /* Centers the image */
-    background-repeat: no-repeat;             /* Prevents the image from repeating */
-    height: 100vh;                            /* Makes sure the background covers the whole page */
-    margin: 0;                                /* Removes default margin */
-    background-color: black;
-    justify-content: center;
-    align-items: center;
-    display: flex;
+    background-size: cover;             /* Ensures the image covers the whole page */
+    background-position: center;        /* Centers the image */
+    background-repeat: no-repeat;       /* Prevents the image from repeating */
+    height: 100vh;                      /* Makes sure the background covers the whole page */
+    margin: 0;                          /* Removes default margin */
+    background-color: black;            /* Sets the background color to black */
+    
+    display: flex;                      /* Enables Flexbox */
+    flex-direction: column;             /* Stack paragraphs vertically */
+    justify-content: center;            /* Center the content vertically */
+    align-items: center;                /* Center the content horizontally */
 }
 
 p {
-    color: white;
-
+    color: white;                       /* Text color is white */
+    margin: 0;                           /* Remove default margin for better control */
+    padding: 10px;                       /* Add some space around the text */
 }
